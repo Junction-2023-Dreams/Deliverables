@@ -1,5 +1,8 @@
 ## Table of Contents
 - [Introduction](#introduction)
+  - [Two Goals](#two-goals)
+    - [1. Helping addicted patients](#1-helping-addicted-patients)
+    - [2. Substitute addictive pain killers with alternative, healthy methods](#2-substitute-addictive-pain-killers-with-alternative-healthy-methods)
   - [Functionalities](#functionalities)
     - [SmartWatch App Functionalities](#smartwatch-app-functionalities)
     - [Patient Doctor App Functionalities](#patient-doctor-app-functionalities)
@@ -19,7 +22,11 @@
 Our ecosystem provides **3** apps:
 1. Smart Watch Application
 2. Patient Application
-3. Doctor Application
+3. Doctor Application 
+
+## Two Goals
+### 1. Helping addicted patients
+### 2. Substitute addictive pain killers with alternative, healthy methods
 
 ## Functionalities
 ### SmartWatch App Functionalities
@@ -42,11 +49,13 @@ Our ecosystem provides **3** apps:
   * Drug intake button
     * Suggests effective alternative subtitution methods
     * On Pill-Intake: Measures heart rate in following time period to measure effects for users analytics
+    * Suggests alternate methods to patients before drug intake
   * Passive Health Data Collection 
     * Private for personal analytics
     * Used for collecting data about
       * regular pains
       * effectiveness of drug substitutions
+      * **prediction** of future pains to counteract preventively with alternative methods
 
 ### Patient Doctor App Functionalities
 #### Patient Page
