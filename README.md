@@ -3,6 +3,8 @@
   - [Functionalities](#functionalities)
     - [SmartWatch App Functionalities](#smartwatch-app-functionalities)
     - [Patient Doctor App Functionalities](#patient-doctor-app-functionalities)
+      - [Patient Page](#patient-page)
+      - [Doctor Page](#doctor-page)
 - [Patient \& Doctor App Testing](#patient--doctor-app-testing)
   - [Credentials](#credentials)
       - [Patient](#patient)
@@ -36,15 +38,37 @@ Our ecosystem provides **3** apps:
 * Button "*I feel Pain*"
   * Drug substitution methods via "*Relax*" button
     * Suggests different alternative methods that could work
-    * Provides a psychological health assessment after every substitution to try to measure effectiveness
+    * Provides a **psychological health assessment** after every substitution to try to measure **effectiveness**
   * Drug intake button
     * Suggests effective alternative subtitution methods
     * On Pill-Intake: Measures heart rate in following time period to measure effects for users analytics
+  * Passive Health Data Collection 
+    * Private for personal analytics
+    * Used for collecting data about
+      * regular pains
+      * effectiveness of drug substitutions
 
 ### Patient Doctor App Functionalities
+#### Patient Page
 * Differenciated Login
 * Interactive User-Pain-Map
 * Heart-Rate-History sharing with doctor
+  * Share history with Doctor to request assistance (Optionally & Encrypted)
+* Display medications (drugs), dosis and time to take in
+* Health User-Pain-Map to actively edit and display pain points to doctors
+* Add Medications
+* Activities to substitute pain creators
+
+#### Doctor Page
+* Table with Patients with shared data
+  * Sortable after addiction risk, names, etc.
+  * Searchable
+* Warn-O-Meter
+  * Warns of addiction risk at patients
+  * Sortable & Searchable
+  * Banner with most important notifications
+    * Notification for immediate attention (high priority)
+    * Notification for later attention 
 
 
 # Patient & Doctor App Testing
