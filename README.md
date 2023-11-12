@@ -40,8 +40,8 @@ The installables are debug-builds and for testing purposes only.
 
 ### .apk Installation
 1. Install Android Studio
-2. Create an emulator for phone / watch
-3. Drag and drop the .apk file to the emulator
+2. Create an emulator for a watch 
+3. Drag and drop the watch-app.apk file to the emulator
 4. The app will be installed and can be used by opening it
 
 # Important Information
