@@ -1,12 +1,13 @@
 ## Table of Contents
 - [Introduction](#introduction)
-- [Patient \& Doctor App](#patient--doctor-app)
+  - [Functionalities](#functionalities)
+    - [SmartWatch App Functionalities](#smartwatch-app-functionalities)
+    - [Patient Doctor App Functionalities](#patient-doctor-app-functionalities)
+- [Patient \& Doctor App Testing](#patient--doctor-app-testing)
   - [Credentials](#credentials)
       - [Patient](#patient)
       - [Doctor](#doctor)
-  - [Available functionalities](#available-functionalities)
-- [SmartWatch App](#smartwatch-app)
-  - [Available functionalities](#available-functionalities-1)
+- [SmartWatch App Testing](#smartwatch-app-testing)
   - [Android Installables](#android-installables)
     - [Provided Files:](#provided-files)
     - [.apk Installation](#apk-installation)
@@ -18,29 +19,8 @@ Our ecosystem provides **3** apps:
 2. Patient Application
 3. Doctor Application
 
-# Patient & Doctor App 
-Please, test the **Patient** & **Doctor** **App** online.   
-[Here](https://app.simonbrebeck.de/)  
-Credentials are provided below.
-
-## Credentials
-#### Patient  
-Email: simon.brebeck@sap.com   
-Password: patient   
-#### Doctor   
-Email: simon.brebeck@rwth-aachen.de    
-Password: doctor  
- 
-## Available functionalities
-* Differenciated Login
-* Interactive User-Pain-Map
-* Heart-Rate-History sharing with doctor
-
-
-# SmartWatch App
-In this section the installables and the installation process for the SmartWatch App are described. 
-
-## Available functionalities
+## Functionalities
+### SmartWatch App Functionalities
 * Initial Default-Health-State-Measurement
 * Heart-Rate-Measurement
 * Achievements Page
@@ -60,6 +40,28 @@ In this section the installables and the installation process for the SmartWatch
   * Drug intake button
     * Suggests effective alternative subtitution methods
     * On Pill-Intake: Measures heart rate in following time period to measure effects for users analytics
+
+### Patient Doctor App Functionalities
+* Differenciated Login
+* Interactive User-Pain-Map
+* Heart-Rate-History sharing with doctor
+
+
+# Patient & Doctor App Testing
+Please, test the **Patient** & **Doctor** **App** online.   
+[Here](https://app.simonbrebeck.de/)  
+Credentials are provided below.
+
+## Credentials
+#### Patient  
+Email: patient@email.com   
+Password: patient   
+#### Doctor   
+Email: doctor@email.com    
+Password: doctor  
+
+# SmartWatch App Testing
+In this section the installables and the installation process for the SmartWatch App are described. 
 
 ## Android Installables
 The installables are debug-builds and for testing purposes only.  
