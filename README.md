@@ -4,7 +4,9 @@
   - [Credentials](#credentials)
       - [Patient](#patient)
       - [Doctor](#doctor)
+  - [Available functionalities](#available-functionalities)
 - [SmartWatch App](#smartwatch-app)
+  - [Available functionalities](#available-functionalities-1)
   - [Android Installables](#android-installables)
     - [Provided Files:](#provided-files)
     - [.apk Installation](#apk-installation)
@@ -16,7 +18,7 @@ Our ecosystem provides **3** apps:
 2. Patient Application
 3. Doctor Application
 
-# Patient & Doctor App
+# Patient & Doctor App 
 Please, test the **Patient** & **Doctor** **App** online.   
 [Here](https://app.simonbrebeck.de/)  
 Credentials are provided below.
@@ -28,9 +30,37 @@ Password: patient
 #### Doctor   
 Email: simon.brebeck@rwth-aachen.de    
 Password: doctor  
+ 
+## Available functionalities
+* Differenciated Login
+* Interactive User-Pain-Map
+* Heart-Rate-History sharing with doctor
+
 
 # SmartWatch App
 In this section the installables and the installation process for the SmartWatch App are described. 
+
+## Available functionalities
+* Initial Default-Health-State-Measurement
+* Heart-Rate-Measurement
+* Achievements Page
+  * Shows Health and Non-Medication-Successes
+  * Shows gamified level experience
+  * Shows history
+* SOS Page
+  * Sends SOS-Message to Emergency-Contacts
+* Analytics-Page
+  * Heart-Measurements
+  * Drug intakes 
+  * Substitution successes
+* Button "*I feel Pain*"
+  * Drug substitution methods via "*Relax*" button
+    * Suggests different alternative methods that could work
+    * Provides a psychological health assessment after every substitution to try to measure effectiveness
+  * Drug intake button
+    * Suggests effective alternative subtitution methods
+    * On Pill-Intake: Measures heart rate in following time period to measure effects for users analytics
+
 ## Android Installables
 The installables are debug-builds and for testing purposes only.  
 **They do not contain medical or any kind of advice!**
